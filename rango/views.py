@@ -5,7 +5,7 @@ from django.http import HttpResponse
 def index(request):
     message = "Rango says hey tehre partner!"
 	
-	html =" <br/>  <a href='/rango/about/'>About</a>"
+	html =" <a href='/rango/about/'>About</a>"
 	
     return HttpResponse("%s  %s " % (message, html) )
 
