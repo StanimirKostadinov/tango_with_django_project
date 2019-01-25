@@ -7,9 +7,9 @@ def index(request):
 	
 	html =" <a href='/rango/about/'>About</a>"
 	
-    return HttpResponse("%s  %s " % (message, html) )
+     return HttpResponse("%s" + "/n" + " %s " % (message, html))
 
 def about(request):
     message =  "Rango says here is the about page."	
-	html = "<h2><a href='/rango/'>Index</a><h2> '''
-    return HttpResponse("%s  %s " % (message, html))
+	html = "<a href='/rango/'>Index</a>'''
+    return HttpResponse("%s" + "/n" + " %s " % (message, html))
