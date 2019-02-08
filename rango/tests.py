@@ -247,4 +247,4 @@ class Chapter7ViewTests(TestCase):
     #<a href="/rango/add_category/">Add a New Category</a><br />
 
 
-    # test if the add_page.html template exists.# Create your tests here.
+    # test if the add_page.html template exists.
